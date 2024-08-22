@@ -1,0 +1,24 @@
+{
+  "name": "cypress-bdd-framework",
+  "version": "1.0.0",
+  "description": "Automating using Cypress BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BDD",
+    "Cypress"
+  ],
+  "author": "Agboola Michael Daramola",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+    "cypress": "^12.14.0",
+    "ts-loader": "^9.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
