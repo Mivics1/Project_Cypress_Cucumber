@@ -13,3 +13,7 @@ Given(`I navigate the WebdriverUniversity homepage`, ()=>{
 When(`I click on the Contact us button`, ()=>{
     cy.get(contact_us).invoke("removeAttr","target").click();
 })
+
+When(`I Click on the Login portal button`, ()=>{
+    cy.get('#login-portal').invoke('removeAttr','target').type('webdriver')
+})
