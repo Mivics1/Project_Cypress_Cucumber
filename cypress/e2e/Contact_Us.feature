@@ -8,3 +8,12 @@ Feature: WebdriverUniversity - Contact Us Page
         And I type a comment
         And I click on the submit button
         Then The system should display a Successful message as a feedback
+
+    Scenario: Invalid Contact Us Form Submission: Omit Email Address
+        Given I navigate the WebdriverUniversity homepage
+        When I click on the Contact us button
+        And I type a first name
+        And I type a last name
+        And I type a comment
+        And I click on the submit button
+        Then The system should display Invalid Email Address as a feedback

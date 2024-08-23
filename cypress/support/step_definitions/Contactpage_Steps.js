@@ -17,6 +17,3 @@ When(`I type a comment`, ()=>{
 When(`I click on the submit button`, ()=>{
     cy.get('input[type="submit"]').type("Daramola")
 })
-Then(`The system should display a Successful message as a feedback`, ()=>{
-    cy.get('h1').should('have.text','Thank You for your Message!');
-})
