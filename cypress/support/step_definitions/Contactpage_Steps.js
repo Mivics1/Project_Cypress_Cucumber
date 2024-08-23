@@ -15,5 +15,17 @@ When(`I type a comment`, ()=>{
     cy.get('textarea[name="message"]').type("Testing 1, 2, 3...")
 })
 When(`I click on the submit button`, ()=>{
-    cy.get('input[type="submit"]').type("Daramola")
+    cy.get('input[type="submit"]').click()
+})
+When(`I type a specific first name {string}`,(firstname)=>{
+    cy.get('input[name="first_name"]').type(firstname);  
+})
+When(`I type a specific last name {string}`,(lastname)=>{
+    cy.get('input[name="last_name"]').type(lastname);  
+})
+When(`I enter a specific email address {string}`,(email)=>{
+    cy.get('input[name="email"]').type(email);  
+})
+When(`I type a specific word {string} and number {int} within the comment input field`, (word, number)=>{
+    cy.get('textarea[name="message"]').type(word + " "+ number)
 })
