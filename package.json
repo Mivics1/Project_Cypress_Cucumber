@@ -24,6 +24,10 @@
       "enabled": true,
       "output": "cypress/reports/cucumber-html/cucumber-report.html"
     },
+      "messages":{
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-report.ndjson"
+    },
     "json":{
       "enabled": true,
       "formatter": "cucumber-json-formatter",
