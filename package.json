@@ -4,7 +4,11 @@
   "description": "Automating using Cypress BDD",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "full-regression-headed-chrome": "test --headed --browser chrome --spec",
+    "contact-us-tests-headed": "npm run test -- --headed --browser chrome --spec 'cypress/e2e/Contact_Us.feature'",
+    "contact-us-tests-headedless": "npm run test -- --browser chrome --spec 'cypress/e2e/Contact_Us.feature'",
+    "login-tests-headed": "npm run test -- --headed --browser chrome --spec 'cypress/e2e/Login.feature'"
   },
   "keywords": [
     "BDD",
