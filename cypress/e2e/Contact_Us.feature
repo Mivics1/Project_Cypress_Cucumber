@@ -1,5 +1,5 @@
+@regression
 Feature: WebdriverUniversity - Contact Us Page
-
     Background: Pre-conditions
         Given I navigate the WebdriverUniversity homepage
         When I click on the Contact us button
@@ -17,7 +17,8 @@ Feature: WebdriverUniversity - Contact Us Page
         And I type a comment
         And I click on the submit button
         Then The system should display Invalid Email Address as a feedback
-
+    
+    @smoke_test
     Scenario: Valid Contact Us Form Submission - Using specific data
         And I type a specific first name "Agboola"
         And I type a specific last name "Daramola"

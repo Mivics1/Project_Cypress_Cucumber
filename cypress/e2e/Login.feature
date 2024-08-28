@@ -1,5 +1,6 @@
+@regression
 Feature: Webdriveruniversity - login Page
-
+    @smoke_test
     Scenario Outline: Valid & Invalid Username and Password
         Given I navigate the WebdriverUniversity homepage
         When I Click on the Login portal button

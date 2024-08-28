@@ -18,8 +18,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 2977000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -31,8 +31,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 917000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -44,8 +44,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 467000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -57,8 +57,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 357000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -70,8 +70,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 630000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -83,8 +83,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 505000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -96,8 +96,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 1477000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -109,12 +109,17 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 59000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       },
       {
@@ -133,8 +138,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 457000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -146,8 +151,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 369000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -159,8 +164,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 397000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -172,8 +177,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 280000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -185,8 +190,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 419000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -198,8 +203,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 348000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -211,19 +216,24 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 35000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "webdriveruniversity---contact-us-page;valid-contact-us-form-submission---using-specific-data",
         "keyword": "Scenario",
-        "line": 21,
+        "line": 22,
         "name": "Valid Contact Us Form Submission - Using specific data",
         "steps": [
           {
@@ -236,7 +246,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 425000000
+              "duration": 3034000000
             }
           },
           {
@@ -249,97 +259,323 @@
             },
             "result": {
               "status": "passed",
-              "duration": 487000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "I type a specific first name \"Agboola\"",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 300000000
+              "duration": 1070000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 23,
-            "name": "I type a specific last name \"Daramola\"",
+            "name": "I type a specific first name \"Agboola\"",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 301000000
+              "duration": 375000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 24,
-            "name": "I enter a specific email address \"agbooladaramola7@gmail.com\"",
+            "name": "I type a specific last name \"Daramola\"",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 539000000
+              "duration": 368000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 25,
-            "name": "I type a specific word \"My Whatsapp number is \" and number 2349033083268 within the comment input field",
+            "name": "I enter a specific email address \"agbooladaramola7@gmail.com\"",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 704000000
+              "duration": 655000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 26,
+            "name": "I type a specific word \"My Whatsapp number is \" and number 2349033083268 within the comment input field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
             "name": "I click on the submit button",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 1597000000
+              "duration": 1489000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 27,
+            "line": 28,
             "name": "The system should display a Successful message as a feedback",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 66000000
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke_test",
+            "line": 21
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "webdriveruniversity---contact-us-page",
-    "line": 1,
+    "line": 2,
     "keyword": "Feature",
     "name": "WebdriverUniversity - Contact Us Page",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
     "uri": "cypress\\e2e\\Contact_Us.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;valid-&-invalid-username-and-password",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Valid & Invalid Username and Password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate the WebdriverUniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I Click on the Login portal button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I type the username 'webdriver'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I type the password 'webdriver123'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I Click on the Login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The system should display 'validation failed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke_test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;valid-&-invalid-username-and-password",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Valid & Invalid Username and Password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate the WebdriverUniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I Click on the Login portal button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I type the username 'webdriver'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I type the password 'Password123'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I Click on the Login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The system should display 'validation failed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke_test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "webdriveruniversity---login-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Webdriveruniversity - login Page",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "cypress\\e2e\\Login.feature"
   }
 ]

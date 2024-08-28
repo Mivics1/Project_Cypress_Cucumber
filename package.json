@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "full-regression-headed-chrome": "test --headed --browser chrome --spec",
+    "regression-headed-chrome": "npm run test -- --browser chrome -e TAGS=\"@regression\" --headed",
+    "regression-headedless": "npm run test -- -e TAGS=\"@regression\"",
+    "smoke-headed-chrome": "npm run test -- --browser chrome -e TAGS=\"@smoke_test\" --headed",
+    "smoke-headedless": "npm run test -- -e TAGS=\"@smoke_test\"",
     "contact-us-tests-headed": "npm run test -- --headed --browser chrome --spec 'cypress/e2e/Contact_Us.feature'",
     "contact-us-tests-headedless": "npm run test -- --browser chrome --spec 'cypress/e2e/Contact_Us.feature'",
     "login-tests-headed": "npm run test -- --headed --browser chrome --spec 'cypress/e2e/Login.feature'"
