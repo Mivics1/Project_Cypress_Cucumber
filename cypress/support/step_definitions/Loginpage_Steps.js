@@ -18,3 +18,8 @@ When('I Click on the Login button', ()=>{
 Then('The system should display {string}',(expectedAlertText)=>{
     expect(stub).to.have.been.calledWith(expectedAlertText);
 })
+// Then('The system should display {string}',(expectedAlertText)=>{
+//     cy.on(`window:alert`, (alertText) => {
+//     expect(alertText).to.equal(expectedAlertText)  
+// });
+// })
