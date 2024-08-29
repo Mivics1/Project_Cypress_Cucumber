@@ -26,4 +26,15 @@ Feature: WebdriverUniversity - Contact Us Page
         And I type a specific word "My Whatsapp number is " and number 2349033083268 within the comment input field
         And I click on the submit button
         Then The system should display a Successful message as a feedback
-        
+    
+    Scenario Outline: Validate the Contact Us page
+        And I type a first name <firstname> and a last name <lastname>
+        And I type an <emailaddress> and a comment <comment>
+        And I click on the submit button
+        Then I should be presented with header text '<message>'
+
+        Examples:
+            | firstname | lastname | emailaddress               | comment               |   message                      |
+            | Michael   | Daramola | agbooladaramola7@gmail.com |  Hello Michael        |   Thank You for your Message!  |
+            | Agboola   | Daramola | agbooladaramola7@gmail.com |  Hello Agboola        |   Thank You for your Message!  |
+            | Agboola   | Daramola | agbooladaramola7           |  Hello Daramola       |   Error: Invalid email address |
