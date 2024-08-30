@@ -2,10 +2,10 @@
 
 import { After, Before, Given, When } from "@badeball/cypress-cucumber-preprocessor";
 
-Before (()=>{
-    cy.log("Executes before each Scenario/Test.");
-    cy.clearLocalStorage();
-})
+// Before (()=>{
+//     cy.log("Executes before each Scenario/Test.");
+//     cy.clearLocalStorage();
+// })
 
 Before({ tags: "@Smoke_test"},()=>{
     cy.log("Executing Smoke Test");

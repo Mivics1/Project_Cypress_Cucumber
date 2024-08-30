@@ -2,8 +2,9 @@
 Feature: Webdriveruniversity - login Page
     @smoke_test
     Scenario Outline: Valid & Invalid Username and Password
-        Given I navigate the WebdriverUniversity homepage
-        When I Click on the Login portal button
+        # Given I navigate the WebdriverUniversity homepage
+        # When I Click on the Login portal button
+        When I navigate to the Webdriver university login portal
         And I type the username <username>
         And I type the password <password>
         And I Click on the Login button
