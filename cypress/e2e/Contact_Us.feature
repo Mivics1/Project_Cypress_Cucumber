@@ -2,6 +2,7 @@
 Feature: WebdriverUniversity - Contact Us Page
     Background: Pre-conditions
         Given I navigate the WebdriverUniversity homepage
+        When I wait for 5 seconds
         When I click on the Contact us button
     Scenario: Valid Contact Us Form Submission
         And I type a first name
@@ -11,6 +12,7 @@ Feature: WebdriverUniversity - Contact Us Page
         And I click on the submit button
         Then The system should display a Successful message as a feedback
 
+    @smoke_test    
     Scenario: Invalid Contact Us Form Submission: Omit Email Address
         And I type a first name
         And I type a last name
@@ -27,6 +29,7 @@ Feature: WebdriverUniversity - Contact Us Page
         And I click on the submit button
         Then The system should display a Successful message as a feedback
     
+    @smoke_test    
     Scenario Outline: Validate the Contact Us page
         And I type a first name <firstname> and a last name <lastname>
         And I type an <emailaddress> and a comment <comment>
@@ -36,5 +39,5 @@ Feature: WebdriverUniversity - Contact Us Page
         Examples:
             | firstname | lastname | emailaddress               | comment               |   message                      |
             | Michael   | Daramola | agbooladaramola7@gmail.com |  Hello Michael        |   Thank You for your Message!  |
-            | Agboola   | Daramola | agbooladaramola7@gmail.com |  Hello Agboola        |   Thank You for your Message!   |
+            | Agboola   | Daramola | agbooladaramola7@gmail.com |  Hello Agboola        |   Thank You for your Message!  |
             | Agboola   | Daramola | agbooladaramola7           |  Hello Daramola       |   Error: Invalid email address |
