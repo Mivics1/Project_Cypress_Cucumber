@@ -59,7 +59,7 @@ When(`I type a first name {} and a last name {}`, (firstname, lastname) => {
   }
 });
 Then(`I should be presented with header text {string}`,(message)=>{
-  cy.xpath("//body | //h1").contains(message);
+  cy.xpath("//body | //h1").should('contain.text',message);
     // cy.xpath('//body | //h1').each(($el) => {
     //   if ($el.is('body')) {
     //     // Perform an assertion on the body element

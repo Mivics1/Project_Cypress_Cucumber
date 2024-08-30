@@ -1,4 +1,4 @@
-@regression
+@login @regression
 Feature: Webdriveruniversity - login Page
     @smoke_test
     Scenario Outline: Valid & Invalid Username and Password
