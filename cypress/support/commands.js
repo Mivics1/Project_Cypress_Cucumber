@@ -24,3 +24,6 @@ require('cypress-xpath');
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('OpenLink_In_Same_Tab',(selector)=>{
+    cy.get(selector).invoke('removeAttr','target').click();
+})
