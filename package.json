@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "regression-headed-chrome": "npm run test -- --browser chrome -e TAGS=\"@regression\" --headed",
+    "regression-headed-chrome": "npm run test -- --browser chrome -e TAGS=\"@regression\" --headed && node cucumber-html-report.js",
     "regression-headedless": "npm run test -- -e TAGS=\"@regression\"",
     "smoke-headed-chrome": "npm run test -- --browser chrome -e TAGS=\"@smoke_test\" --headed",
     "smoke-headedless": "npm run test -- -e TAGS=\"@smoke_test\"",

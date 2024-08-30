@@ -1,4 +1,4 @@
-@regression
+@contact-us @regression
 Feature: WebdriverUniversity - Contact Us Page
     Background: Pre-conditions
         Given I navigate the WebdriverUniversity homepage
@@ -36,5 +36,5 @@ Feature: WebdriverUniversity - Contact Us Page
         Examples:
             | firstname | lastname | emailaddress               | comment               |   message                      |
             | Michael   | Daramola | agbooladaramola7@gmail.com |  Hello Michael        |   Thank You for your Message!  |
-            | Agboola   | Daramola | agbooladaramola7@gmail.com |  Hello Agboola        |   Thank You for your Message!  |
+            | Agboola   | Daramola | agbooladaramola7@gmail.com |  Hello Agboola        |   Thank You for your Message!   |
             | Agboola   | Daramola | agbooladaramola7           |  Hello Daramola       |   Error: Invalid email address |
